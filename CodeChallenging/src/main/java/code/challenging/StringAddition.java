@@ -36,6 +36,7 @@ public class StringAddition {
 		loggerInstance.info("*************************** second logger *********************************");
 		loggerInstance.info("String data --->" + stringData);
 
+		loggerInstance.info("*************************** third logger *********************************");
 		String[] split = stringData.split(UtilMethods.getPropertiesFile("postive_symbol"));
 
 		ArrayList<Double> negative = new ArrayList<>();
