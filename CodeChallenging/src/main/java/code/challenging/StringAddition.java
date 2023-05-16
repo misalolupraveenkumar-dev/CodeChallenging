@@ -32,6 +32,8 @@ public class StringAddition {
 		loggerInstance.info("************************************************************");
 
 		loggerInstance.info("*************************** New logger *********************************");
+		
+		loggerInstance.info("*************************** second logger *********************************");
 		loggerInstance.info("String data --->" + stringData);
 
 		String[] split = stringData.split(UtilMethods.getPropertiesFile("postive_symbol"));
